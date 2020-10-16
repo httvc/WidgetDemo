@@ -88,5 +88,7 @@ public class CameraView extends View {
         canvas.translate(-(D_W+WIDTH/2),-(D_W+WIDTH/2));
         canvas.drawBitmap(Utils.getPicture(getResources(),(int) WIDTH),D_W,D_W,paint);
         canvas.restore();
+
+
     }
 }
